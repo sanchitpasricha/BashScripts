@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in weeknd ariana dua olivia
+do
+echo best music award goes to $i
+done

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+whoami
+echo
+pwd
+echo
+ls -ltr
+echo
+
+for i in {1..5}
+do
+	touch $i
+done 
