@@ -1,0 +1,12 @@
+#!/bin/bash
+
+clear 
+echo Enter file path to check if it exist
+read a
+echo
+if [ -e $a ]
+	then 
+	echo "File Exist"
+	else
+	echo "File does not exist"
+fi
