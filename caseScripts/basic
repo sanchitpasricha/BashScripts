@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo
+echo Please choose one of the options below
+echo
+echo 'a=Display and Time'
+echo 'b=List file and directories'
+echo 'c=List users logges in'
+echo 'd=Check System uptime'
+echo
+
+	read choices
+	
+	case $choices in
+
+a) date;;
+b) ls -ltr;;
+c) whoami;;
+d) uptime;;
+*) echo invalid choice - Bye.
+
+	esac
